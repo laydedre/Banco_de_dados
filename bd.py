@@ -45,11 +45,11 @@ def main ():
     
     print("CADASTRO DE ALUNO")
     nome = input("NOME DO ALUNO: ")
-    data_nascimento = input("DATA DE NASCIMENTO (AAA-MM-DD): ")
+    data_nascimento = input("DATA DE NASCIMENTO (AAAA-MM-DD): ")
     cidade_natal = input("CIDADE NATAL: ")
     bairro = input("BAIRRO: ")
     
-    cadastrar_aluno(conexao,nome, data_nascimento,cidade_natal,bairro)
+    cadastrar_aluno(conexao,nome,data_nascimento,cidade_natal,bairro)
     
     print("ALUNO CADASTRADO COM SUCESSO")
     
