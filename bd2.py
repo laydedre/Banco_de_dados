@@ -42,7 +42,7 @@ for i in range (1, 10001):
 
 inserir_query = '''
     INSERT INTO professor(
-        nome, data_nascimento, cidade_natal, estado, renda_percapt, formacao
+        nome, data_nascimento, cidade_natal, estado, renda_percapta, formacao
     )
     VALUES(%s,%s,%s,%s,%s,%s)
 '''
